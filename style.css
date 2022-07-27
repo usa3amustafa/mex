@@ -1,5 +1,7 @@
 :root {
   --pri-clr: rgba(221, 167, 30);
+  --lato: 'Lato', sans-serif;
+  --playfair: 'Playfair Display', serif;
 }
 
 /* utilities */
@@ -12,6 +14,7 @@
 
 body {
   background-color: #000;
+  font-family: var(--playfair);
 }
 
 img {
@@ -306,6 +309,7 @@ nav {
   padding: 0 2rem;
   color: #fff;
   line-height: 1.6;
+  font-style: italic;
 }
 
 .client-name {
@@ -363,7 +367,7 @@ footer {
     url('./img/footer-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-
+  font-family: var(--lato);
   color: #fff;
 }
 
